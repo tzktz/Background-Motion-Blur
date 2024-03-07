@@ -1,0 +1,12 @@
+build:
+  gpu: False
+  python_version: "3.10"
+  system_packages:
+    - "ffmpeg"
+  python_packages:
+    - "rembg"
+    - "moviepy"
+    - "numpy"
+    - "pillow"
+    - "opencv-python"
+predict: "predict.py:Predictor"
